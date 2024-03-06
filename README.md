@@ -261,6 +261,8 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Simulation Tools
+* [**TCAS-I 2024**] NeuroSim V1. 4: Extending Technology Support for Digital Compute-in-Memory Toward 1nm Node.
+  >*Lee, Junmo, Anni Lu, Wantong Li, et al.* [[Paper]](https://www.x-mol.com/paper/1761279482257969152)
 * [**TCAD 2023**] MNSIM 2.0: A Behavior-Level Modeling Tool for Processing-In-Memory Architectures.
   >*Zhenhua Zhu,  Hanbo Sun,  Tongxin Xie, et al.* [[Paper]](https://doi.org/10.1109/TCAD.2023.3251696) [[GitHub]](https://github.com/thu-nics/MNSIM-2.0)
 * [**ASPDAC 2021**] DP-Sim: A Full-stack Simulation Infrastructure for Digital Processing In-Memory Architectures.
@@ -274,6 +276,8 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Software Stack
+* [**ASPLOS 2024**] CIM-MLC: A Multi-level Compilation Stack for Computing-In-Memory Accelerators.
+  >*Songyun Qu, Shixin Zhao, Bing Li, et al.* [[Paper]](https://ar5iv.org/abs/2401.12428)
 * [**ASPLOS 2023**] Infinity Stream: Portable and Programmer-Friendly In-/Near-Memory Fusion.
   >*Zhengrong Wang,  Christopher Liu,  Aman Arora, et al.* [[Paper]](https://polyarch.cs.ucla.edu/papers/asplos2023-infinity-stream.pdf)
 * [**DAC 2023**] AutoDCIM: An Automated Digital CIM Compiler.
