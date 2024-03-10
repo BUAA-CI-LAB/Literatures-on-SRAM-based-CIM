@@ -214,6 +214,8 @@ CNN Accelerator for Dynamic AIoT Workloads.
 * [**ISSCC 29.3 2022**] A 28nm 15.59μJ/Token Full-Digital Bitline-Transpose CIM-Based Sparse Transformer Accelerator with
 Pipeline/Parallel Reconfigurable Modes.
   >*Fengbin Tu,  Zihan Wu,  Yiqi Wang, et al.* [[Paper]](https://doi.org/10.1109/ISSCC42614.2022.9731645)
+* [**ISSCC 2022**] DIANA: An End-to-End Energy-Efficient Digital and ANAlog Hybrid Neural Network SoC.
+  >*Kodai Ueyoshi, Ioannis A. Papistas, Pouya Houshmand, et al.* [[Paper]](https://doi.org/10.1109/ISSCC42614.2022.9731716)
 * [**JETC 2022**] Towards a Truly Integrated Vector Processing Unit for Memory-bound Applications Based on a Cost-competitive Computational SRAM Design Solution.
   >*Maha Kooli,  Antoine Heraud,  Henri-Pierre Charles, et al.* [[Paper]](https://doi.org/10.1145/3485823)
 * [**JSSC 2022**] Scalable and Programmable Neural Network Inference Accelerator Based on In-Memory Computing.
