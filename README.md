@@ -130,6 +130,10 @@ Applications.
 
 ---
 ## Architecture Level
+* [**DAC 2024**] Towards Efficient SRAM-PIM Architecture Design by Exploiting Unstructured Bit-Level Sparsity.
+  >*Duan, Cenlin, Jianlei Yang, Yiou Wang, et al.* [[Paper]](https://arxiv.org/abs/2404.09497)
+* [**TCAS-I 2024**] DCIM-GCN: Digital Computing-in-Memory Accelerator for Graph Convolutional Network.
+  >*Ma, Yufei, Yikan Qiu, Wentao Zhao, et al.* [[Paper]](https://ieeexplore.ieee.org/abstract/document/10500021)
 * [**DAC 2023**] BP-NTT: Fast and Compact in-SRAM Number Theoretic Transform with Bit-Parallel Modular Multiplication.
   >*Jingyao Zhang, Mohsen Imani, Elaheh Sadredini* [[Paper]](https://doi.org/10.48550/arXiv.2303.00173)
 * [**DAC 2023**] Morphable CIM: Improving Operation Intensity and Depthwise Capability for SRAM-CIM Architecture.
