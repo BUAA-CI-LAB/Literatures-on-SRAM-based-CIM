@@ -13,6 +13,8 @@ This curated list aims to provide insights into the integration of CIM technolog
 
 ---
 ## Macro Level
+* [**JSSC 2023**] MACC-SRAM: A Multistep Accumulation Capacitor-Coupling In-Memory Computing SRAM Macro for Deep Convolutional Neural Networks.
+  >*Bo Zhang, Jyotishman Saikia, Jian Meng, et al.* [[Paper]](https://doi.org/10.1109/JSSC.2023.3332017)
 * [**CICC 2023**] A 65 nm 1.4-6.7 TOPS/W Adaptive-SNR Sparsity-Aware CIM Core with Load Balancing Support for DL workloads.
   >*Mustafa Fayez Ali,  Indranil Chakraborty,  Sakshi Choudhary, et al.* [[Paper]](https://doi.org/10.1109/CICC57935.2023.10121243)
 * [**CICC 2023**] A Double-Mode Sparse Compute-In-Memory Macro with Reconfigurable Single and Dual Layer Computation.
@@ -130,6 +132,14 @@ Applications.
 
 ---
 ## Architecture Level
+* [**DATE 2024**] CiMComp: An Energy Efficient Compute-in-Memory Based Comparator for Convolutional Neural Networks.
+  >*Kavitha S, Binsu J Kailath, B. S. Reniwal* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546864)
+* [**DATE 2024**] H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations.
+  >*Zishen Wan, Che-Kai Liu, Mohamed Ibrahim, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546582)
+* [**DATE 2024**] AdaP-CIM: Compute-in-Memory Based Neural Network Accelerator Using Adaptive Posit.
+  >*Jingyu He, Fengbin Tu, Kwang-Ting Cheng, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546569)
+* [**DATE 2024**] DAISM: Digital Approximate In-SRAM Multiplier-Based Accelerator for DNN Training and Inference.
+  >*L. Sonnino, S. Shresthamali, Y. He, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546578)
 * [**DAC 2024**] Towards Efficient SRAM-PIM Architecture Design by Exploiting Unstructured Bit-Level Sparsity.
   >*Duan, Cenlin, Jianlei Yang, Yiou Wang, et al.* [[Paper]](https://arxiv.org/abs/2404.09497)
 * [**TCAS-I 2024**] DCIM-GCN: Digital Computing-in-Memory Accelerator for Graph Convolutional Network.
@@ -267,6 +277,8 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Simulation Tools
+* [**DATE 2024**] X-PIM: Fast Modeling and Validation Framework for Mixed-Signal Processing-in-Memory Using Compressed Equivalent Model in System Verilog.
+  >*I. Jeong, J. -E. Park* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546655)
 * [**TCAS-I 2024**] NeuroSim V1. 4: Extending Technology Support for Digital Compute-in-Memory Toward 1nm Node.
   >*Lee, Junmo, Anni Lu, Wantong Li, et al.* [[Paper]](https://www.x-mol.com/paper/1761279482257969152)
 * [**TCAD 2023**] MNSIM 2.0: A Behavior-Level Modeling Tool for Processing-In-Memory Architectures.
@@ -282,6 +294,10 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Software Stack
+* [**DATE 2024**] A Novel March Test Algorithm for Testing 8T SRAM-Based IMC Architectures.
+  >*L. Ammoura, M. -L. Flottes, P. Girard, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546583)
+* [**DATE 2024**] PIMLC: Logic Compiler for Bit-Serial Based PIM.
+  >*C. Tang, C. Nie, W. Qian, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546754)
 * [**ASPLOS 2024**] CIM-MLC: A Multi-level Compilation Stack for Computing-In-Memory Accelerators.
   >*Songyun Qu, Shixin Zhao, Bing Li, et al.* [[Paper]](https://ar5iv.org/abs/2401.12428)
 * [**ASPLOS 2023**] Infinity Stream: Portable and Programmer-Friendly In-/Near-Memory Fusion.
