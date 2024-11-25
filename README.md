@@ -1,18 +1,27 @@
 # Literature on SRAM-based Compute-In-Memory
+This repository serves as a comprehensive resource for the rapidly advancing field of SRAM-based Compute-In-Memory (CIM), particularly in the context of AI acceleration. It compiles a wide range of materials, including research papers, tools, and surveys, curated by our [team of Maintainers](#maintainers). We welcome and encourage contributions from the community.
 
-This repo serves as a gateway to the evolving field of SRAM-based Compute-In-Memory (CIM), with a focus on accelerating AI applications. It aggregates a diverse array of resources including research papers, tools, and surveys. Managed by our [team of Maintainers](#maintainers), we also encourage contributions from the community.
+The content is systematically categorized to provide a clear and structured overview:
+- [Macro Level](#macro-level): Research on CIM macro designs.
+- [Architecture Level](#architecture-level): Designs and optimizations of CIM accelerators.
+- [Simulation Tools](#simulation-tools): Evaluation tools for CIM.
+- [Software Stack](#software-stack): Software integration with CIM hardware.
+- [Surveys and Analysis](#surveys-and-analysis): In-depth reviews and meta-studies in CIM research.
 
-The content is organized into categories derived from the file names, offering a structured overview of the topic:
-- [Macro Level](#macro-level): Papers on CIM macro designs.
-- [Architecture Level](#architecture-level): CIM Accelerator designs and optimization.
-- [Simulation Tools](#simulation-tools): Tools for CIM evaluation.
-- [Software Stack](#software-stack): Software integration with CIM.
-- [Surveys and Analysis](#surveys-and-analysis): Comprehensive reviews and meta-studies in CIM research.
-
-This curated list aims to provide insights into the integration of CIM technologies for AI, highlighting the latest advancements and methodologies.
+This curated collection aims to offer valuable insights into the integration of CIM technologies for AI, showcasing the latest advancements and methodologies in the field.
 
 ---
 ## Macro Level
+* [**DAC 2024**] Digital CIM with Noisy SRAM Bit: A Compact Clustered Annealer for Large-Scale Combinatorial Optimization.
+  >*Anni Lu, Junmo Lee, Yuan-Chun Luo, et al.* [[Paper]](https://doi.org/10.1145/3649329.3655673)
+* [**DAC 2024**] Addition is Most You Need: Efficient Floating-Point SRAM Compute-in-Memory by Harnessing Mantissa Addition.
+  >*Weidong Cao, Jian Gao, Xin Xin, et al.* [[Paper]](https://doi.org/10.1145/3649329.3655930)
+* [**DAC 2024**] ModSRAM: Algorithm-Hardware Co-Design for Large Number Modular Multiplication in SRAM.
+  >*Jonathan Hao-Cheng Ku, Junyao Zhang, Haoxuan Shan, et al.* [[Paper]](https://doi.org/10.1145/3649329.3656496)
+* [**DAC 2024**] Energy-efficient SNN Architecture using 3nm FinFET Multiport SRAM-based CIM with Online Learning.
+  >*Lucas Huijbregts, Hsiao-Hsuan Liu, Paul Detterer, et al.* [[Paper]](https://doi.org/10.1145/3649329.3656514)
+* [**DAC 2024**] Improving the Efficiency of In-Memory-Computing Macro with a Hybrid Analog-Digital Computing Mode for Lossless Neural Network Inference.
+  >*Qilin Zheng, Ziru Li, Jonathan Ku, et al.* [[Paper]](https://doi.org/10.1145/3649329.3658472)
 * [**JSSC 2023**] MACC-SRAM: A Multistep Accumulation Capacitor-Coupling In-Memory Computing SRAM Macro for Deep Convolutional Neural Networks.
   >*Bo Zhang, Jyotishman Saikia, Jian Meng, et al.* [[Paper]](https://doi.org/10.1109/JSSC.2023.3332017)
 * [**CICC 2023**] A 65 nm 1.4-6.7 TOPS/W Adaptive-SNR Sparsity-Aware CIM Core with Load Balancing Support for DL workloads.
@@ -132,6 +141,24 @@ Applications.
 
 ---
 ## Architecture Level
+* [**DAC 2024**] CAP: A General Purpose Computation-in-memory with Content Addressable Processing Paradigm.
+  >*Zhiheng Yue, Shaojun Wei, Yang Hu, et al.* [[Paper]](https://doi.org/10.1145/3649329.3655689)
+* [**DAC 2024**] Dyn-Bitpool: A Two-sided Sparse CIM Accelerator Featuring a Balanced Workload Scheme and High CIM Macro Utilization.
+  >*Xujiang Xiang, Zhiheng Yue, Yuxuan Li, et al.* [[Paper]](https://doi.org/10.1145/3649329.3655690)
+* [**DAC 2024**] FDCA: Fine-grained Digital-CIM based CNN Accelerator with Hybrid Quantization and Weight-Stationary Dataflow.
+  >*Bo Liu, Qingwen Wei, Yang Zhang, et al.* [[Paper]](https://doi.org/10.1145/3649329.3656253)
+* [**DAC 2024**] AIG-CIM: A Scalable Chiplet Module with Tri-Gear Heterogeneous Compute-in-Memory for Diffusion Acceleration.
+  >*Yiqi Jing, Meng Wu, Jiaqi Zhou, et al.* [[Paper]](https://doi.org/10.1145/3649329.3657373)
+* [**DAC 2024**] Towards Efficient SRAM-PIM Architecture Design by Exploiting Unstructured Bit-Level Sparsity.
+  >*Duan, Cenlin, Jianlei Yang, Yiou Wang, et al.* [[Paper]](https://arxiv.org/abs/2404.09497)
+* [**DAC 2024**] Hyb-Learn: A Framework for On-Device Self-Supervised Continual Learning with Hybrid RRAM/SRAM Memory.
+  >*Fan Zhang, Li Yang, Deliang Fan* [[Paper]](https://doi.org/10.1145/3649329.3657389)
+* [**DAC 2024**] Efficient Memory Integration: MRAM-SRAM Hybrid Accelerator for Sparse On-Device Learning.
+  >*Fan Zhang, Amitesh Sridharan, Wilman Tsai, et al.* [[Paper]](https://doi.org/10.1145/3649329.3657390)
+* [**DAC 2024**] An In-Memory Computing Accelerator with Reconfigurable Dataflow for Multi-Scale Vision Transformer with Hybrid Topology.
+  >*Zhiyuan Chen, Yufei Ma, Keyi Li, et al.* [[Paper]](https://doi.org/10.1145/3649329.3658244)
+* [**DAC 2024**] HEIRS: Hybrid Three-Dimension RRAM- and SRAM-CIM Architecture for Multi-task Transformer Acceleration.
+  >*Liukai Xu, Shuai Yuan, Dengfeng Wang, et al.* [[Paper]](https://doi.org/10.1145/3649329.3657327)
 * [**DATE 2024**] CiMComp: An Energy Efficient Compute-in-Memory Based Comparator for Convolutional Neural Networks.
   >*Kavitha S, Binsu J Kailath, B. S. Reniwal* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546864)
 * [**DATE 2024**] H3DFact: Heterogeneous 3D Integrated CIM for Factorization with Holographic Perceptual Representations.
@@ -140,8 +167,6 @@ Applications.
   >*Jingyu He, Fengbin Tu, Kwang-Ting Cheng, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546569)
 * [**DATE 2024**] DAISM: Digital Approximate In-SRAM Multiplier-Based Accelerator for DNN Training and Inference.
   >*L. Sonnino, S. Shresthamali, Y. He, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546578)
-* [**DAC 2024**] Towards Efficient SRAM-PIM Architecture Design by Exploiting Unstructured Bit-Level Sparsity.
-  >*Duan, Cenlin, Jianlei Yang, Yiou Wang, et al.* [[Paper]](https://arxiv.org/abs/2404.09497)
 * [**TCAS-I 2024**] DCIM-GCN: Digital Computing-in-Memory Accelerator for Graph Convolutional Network.
   >*Ma, Yufei, Yikan Qiu, Wentao Zhao, et al.* [[Paper]](https://ieeexplore.ieee.org/abstract/document/10500021)
 * [**DAC 2023**] BP-NTT: Fast and Compact in-SRAM Number Theoretic Transform with Bit-Parallel Modular Multiplication.
@@ -294,6 +319,8 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Software Stack
+* [**DAC 2024**] EasyACIM: An End-to-End Automated Analog CIM with Synthesizable Architecture and Agile Design Space Exploration.
+  >*Haoyi Zhang, Jiahao Song, Xiaohan Gao, et al.* [[Paper]](https://doi.org/10.1145/3649329.3656229)
 * [**DATE 2024**] A Novel March Test Algorithm for Testing 8T SRAM-Based IMC Architectures.
   >*L. Ammoura, M. -L. Flottes, P. Girard, et al.* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546583)
 * [**DATE 2024**] PIMLC: Logic Compiler for Bit-Serial Based PIM.
@@ -346,6 +373,3 @@ Processing-In-Memory-based Neural Network Accelerators.
 - Yingjie Qi, Beihang University. [[GitHub]](https://github.com/Kevin7Qi)
 - Cenlin Duan, Beihang University. [[GitHub]](https://github.com/AuroraSky111)
 - Xiaolin He, Beihang University. [[GitHub]](https://github.com/iboxl)
-- Yiou Wang, Beihang University. [[GitHub]](https://github.com/wyooyw)
-- Yikun Wang, Beihang University. [[GitHub]](https://github.com/akman-wyk)
-- Rubing Yang, Beihang University. [[GitHub]](https://github.com/RuBing-Yang)
