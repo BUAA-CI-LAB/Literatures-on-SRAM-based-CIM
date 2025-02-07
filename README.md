@@ -12,6 +12,10 @@ This curated collection aims to offer valuable insights into the integration of 
 
 ---
 ## Macro Level
+* [**TVLSI 2025**] Reconfigurable 10T SRAM for Energy-Efficient CAM Operation and In-Memory Computing.  
+  >*Zhang Zhang, Zhihao Chen, Jiedong Wang, Guangjun Xie, Gang Liu.* [[Paper]](https://doi.ieeecomputersociety.org/10.1109/TVLSI.2025.3526973)
+* [**A-SSCC 2024**] A 65nm 687.5-TOPS/W Drive Strength-based SRAM Compute-In-Memory Macro with Adaptive Dynamic Range for Edge AI applications.  
+  >*D.-G. Choi, et al.* [[Paper]](https://doi.org/10.1109/A-SSCC60305.2024.10848920)
 * [**DAC 2024**] Digital CIM with Noisy SRAM Bit: A Compact Clustered Annealer for Large-Scale Combinatorial Optimization.
   >*Anni Lu, Junmo Lee, Yuan-Chun Luo, et al.* [[Paper]](https://doi.org/10.1145/3649329.3655673)
 * [**DAC 2024**] Addition is Most You Need: Efficient Floating-Point SRAM Compute-in-Memory by Harnessing Mantissa Addition.
@@ -141,6 +145,8 @@ Applications.
 
 ---
 ## Architecture Level
+* [**TVLSI 2025**] SysCIM: A Heterogeneous Chip Architecture for High-Efficiency CNN Training at Edge.  
+  >*Shuai Wang, Ziwei Li, Yuang Ma, Yi Kang.* [[Paper]](https://doi.org/10.1109/TVLSI.2025.3526363)
 * [**DAC 2024**] CAP: A General Purpose Computation-in-memory with Content Addressable Processing Paradigm.
   >*Zhiheng Yue, Shaojun Wei, Yang Hu, et al.* [[Paper]](https://doi.org/10.1145/3649329.3655689)
 * [**DAC 2024**] Dyn-Bitpool: A Two-sided Sparse CIM Accelerator Featuring a Balanced Workload Scheme and High CIM Macro Utilization.
@@ -319,6 +325,8 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Software Stack
+* [**TCSI 2025**] A Design Framework of Heterogeneous Approximate DCIM-Based Accelerator for Energy-Efficient NN Processing.  
+  >*Kyeongho Lee, Hyeyeong Lee, Jongsun Park.* [[Paper]](https://doi.org/10.1109/TCSI.2025.3530637)
 * [**DAC 2024**] EasyACIM: An End-to-End Automated Analog CIM with Synthesizable Architecture and Agile Design Space Exploration.
   >*Haoyi Zhang, Jiahao Song, Xiaohan Gao, et al.* [[Paper]](https://doi.org/10.1145/3649329.3656229)
 * [**DATE 2024**] A Novel March Test Algorithm for Testing 8T SRAM-Based IMC Architectures.
