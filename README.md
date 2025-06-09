@@ -12,6 +12,28 @@ This curated collection aims to offer valuable insights into the integration of 
 
 ---
 ## Macro Level
+* [**JSSC 2025**] A 22-nm 109.3-to-249.5-TFLOPS/W Outlier-Aware Floating-Point SRAM Compute-in-Memory Macro for Large Language Models.  
+  >*Siqi He, Haozhe Zhu, Hongyi Zhang, et al.* [[Paper]](https://doi.org/10.1109/JSSC.2025.3571315)
+* [**JSSC 2025**] A 22-nm Delta–Sigma Computing-In-Memory SRAM Macro With Near-Zero-Mean Outputs and LSB-First ADCs for Edge AI Processing.  
+  >*Peiyu Chen, Wentao Zhao, Meng Wu, et al.* [[Paper]](https://doi.org/10.1109/JSSC.2025.3539736)
+* [**CICC 2025**] A 28nm 20.9-137.2 TOPS/W Output-Stationary SRAM Compute-in-Memory Macro Featuring Dynamic Look-ahead Zero Weight Skipping and Runtime Partial Sum Quantization.  
+  >*Xiaofeng Hu, HanGyeol Mun, Jian Meng, et al.* [[Paper]](https://doi.org/10.1109/CICC63670.2025.10982878)
+* [**MEJ 2025**] A PVT-insensitive 7T SRAM CIM macro for multibit multiplication with dynamic matching quantization circuits.  
+  >*Chenghu Dai, Jianhao Zhang, Ruixuan Wang, et al.* [[Paper]](https://doi.org/10.1016/j.mejo.2025.106703)
+* [**LSSC 2025**] A Segmented Precision Configurable Computing-in-Memory Macro With Dual-Edge Time-Domain Structure.  
+  >*Chang Xue, Youming Yang, Siyuan He, et al.* [[Paper]](https://doi.org/10.1109/LSSC.2025.3558928)
+* [**ISSCC 2025**] 14.4 A 51.6TFLOPs/W Full-Datapath CIM Macro Approaching Sparsity Bound and <2-30 Loss for Compound AI.  
+  >*Zhiheng Yue, Xujiang Xiang, Yang Wang, et al.* [[Paper]](https://doi.org/10.1109/ISSCC49661.2025.10904702)
+* [**ISSCC 2025**] 14.5 A 28nm 192.3TFLOPS/W Accurate/Approximate Dual-Mode-Transpose Digital 6T-SRAM CIM Macro for Floating-Point Edge Training and Inference.  
+  >*Yiyang Yuan, Bingxin Zhang, Yiming Yang, et al.* [[Paper]](https://doi.org/10.1109/ISSCC49661.2025.10904659)
+* [**ISSCC 2025**] 14.6 A 28nm 64kb Bit-Rotated Hybrid-CIM Macro with an Embedded Sign-Bit-Processing Array and a Multi-Bit-Fusion Dual-Granularity Cooperative Quantizer.  
+  >*Xi Chen, Shaochen Li, Zhican Zhang, et al.* [[Paper]](https://doi.org/10.1109/ISSCC49661.2025.10904646)
+* [**ISSCC 2025**] 14.7 NeuroPilot: A 28nm, 69.4fJ/node and 0.22ns/node, 32×32 Mimetic-Path-Searching CIM-Macro with Dynamic-Logic Pilot PE and Dual-Direction Searching.  
+  >*An Guo, Jingmin Zhang, Xingyu Pu, et al.* [[Paper]](https://doi.org/10.1109/ISSCC49661.2025.10904805)
+* [**TVLSI 2025**] A 28-nm Cascode Current Mirror-Based Inconsistency-Free Charging-and-Discharging SRAM-CIM Macro for High-Efficient Convolutional Neural Networks.  
+  >*Chunyu Peng, Jiating Guo, Shengyuan Yan, et al.* [[Paper]](https://doi.ieeecomputersociety.org/10.1109/TVLSI.2025.3552641)
+* [**TVLSI 2025**] A 28-nm 9T1C SRAM-Based CIM Macro With Hierarchical Capacitance Weighting and Two-Step Capacitive Comparison ADCs for CNNs.  
+  >*Zhiting Lin, Runru Yu, Yunhao Li, et al.* [[Paper]](https://doi.org/10.1109/TVLSI.2025.3545635)
 * [**TVLSI 2025**] Reconfigurable 10T SRAM for Energy-Efficient CAM Operation and In-Memory Computing.  
   >*Zhang Zhang, Zhihao Chen, Jiedong Wang, Guangjun Xie, Gang Liu.* [[Paper]](https://doi.ieeecomputersociety.org/10.1109/TVLSI.2025.3526973)
 * [**A-SSCC 2024**] A 65nm 687.5-TOPS/W Drive Strength-based SRAM Compute-In-Memory Macro with Adaptive Dynamic Range for Edge AI applications.  
@@ -145,6 +167,26 @@ Applications.
 
 ---
 ## Architecture Level
+* [**TCAS-I 2025**] SHMT: An SRAM and HBM Hybrid Computing-in-Memory Architecture With Optimized KV Cache for Multimodal Transformer.  
+  >*Xiangqu Fu, Jinshan Yue, Muhammad Faizan, et al.* [[Paper]](https://doi.org/10.1109/TCSI.2025.3561245)
+* [**TCAS-I 2025**] A Heterogeneous System With Computing in Memory Processing Elements to Accelerate CNN Inference.  
+  >*Jinkai Wang, Youxiang Chen, Zekun Wang, et al.* [[Paper]](https://doi.org/10.1109/TCSI.2025.3543104)
+* [**TCAS-I 2025**] FlexDCIM: A 400 MHz 249.1 TOPS/W 64 Kb Flexible Digital Compute-in-Memory SRAM Macro for CNN Acceleration.  
+  >*Vishal Sharma, Xin Zhang, Narendra Singh Dhakad, et al.* [[Paper]](https://doi.org/10.1109/TCSI.2025.3547853)
+* [**JSSC 2025**] Hybrid SRAM/ROM Compute-in-Memory Architecture for High Task-Level Energy Efficiency in Transformer Models.  
+  >*Guodong Yin, Yiming Chen, Mingyen Lee, et al.* [[Paper]](https://doi.org/10.1109/JSSC.2025.3556008)
+* [**arXiv 2025**] Accelerating LLM Inference with Flexible N: M Sparsity via A Fully Digital Compute-in-Memory Accelerator.  
+  >*Akshat Ramachandran, Souvik Kundu, Arnab Raha, et al.* [[Paper]](https://arxiv.org/abs/2504.14365)
+* [**Nature 2025**] A mixed-precision memristor and SRAM compute-in-memory AI processor.  
+  >*W.S. Khwa, T.H. Wen, H.H. Hsu, et al.* [[Paper]](https://doi.org/10.1038/s41586-025-08639-2)
+* [**DATE 2025**] SHWCIM: A Scalable Heterogeneous Workload Computing-in-Memory Architecture.  
+  >*Yanfeng Yang, Yi Zou, Zhibiao Xue, et al.* [[Paper]](https://doi.org/10.23919/DATE64628.2025.10993209)
+* [**ASPDAC 2025**] A 24.65 TOPS/W@INT8 Hybrid Analog-Digital Multi-core SRAM CIM Macro with Optimal Weight Dividing and Resource Allocation Strategies.  
+  >*Yitong Zhou, Wente Yi, Sifan Sun, et al.* [[Paper]](https://doi.org/10.1145/3658617.3697580)
+* [**ASPDAC 2025**] A Layer-wised Mixed-Precision CIM Accelerator with Bit-level Sparsity-aware ADCs for NAS-Optimized CNNs.  
+  >*Haoxiang Zhou, Zikun Wei, Dingbang Liu, et al.* [[Paper]](https://doi.org/10.1145/3658617.3697682)
+* [**TACO 2025**] Shift-CIM: In-SRAM Alignment To Support General-Purpose Bit-level Sparsity Exploration in SRAM Multiplication.  
+  >*Gaoyang Zhao, Qiuran Li, Rongzhen Lin, et al.* [[Paper]](https://doi.org/10.1145/3719654)
 * [**TVLSI 2025**] SysCIM: A Heterogeneous Chip Architecture for High-Efficiency CNN Training at Edge.  
   >*Shuai Wang, Ziwei Li, Yuang Ma, Yi Kang.* [[Paper]](https://doi.org/10.1109/TVLSI.2025.3526363)
 * [**DAC 2024**] CAP: A General Purpose Computation-in-memory with Content Addressable Processing Paradigm.
@@ -308,6 +350,8 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Simulation Tools
+* [**DATE 2025**] DAMIL-DCIM: A Digital CIM Layout Synthesis Framework with Dataflow-Aware Floorplan and MILP-Based Detailed Placement.  
+  >*Chuyu Wang, Ke Hu, Fan Yang, et al.* [[Paper]](https://doi.org/10.23919/DATE64628.2025.10992711)
 * [**DATE 2024**] X-PIM: Fast Modeling and Validation Framework for Mixed-Signal Processing-in-Memory Using Compressed Equivalent Model in System Verilog.
   >*I. Jeong, J. -E. Park* [[Paper]](https://doi.org/10.23919/DATE58400.2024.10546655)
 * [**TCAS-I 2024**] NeuroSim V1. 4: Extending Technology Support for Digital Compute-in-Memory Toward 1nm Node.
@@ -325,7 +369,11 @@ Pipeline/Parallel Reconfigurable Modes.
 
 ---
 ## Software Stack
-* [**TCSI 2025**] A Design Framework of Heterogeneous Approximate DCIM-Based Accelerator for Energy-Efficient NN Processing.  
+* [**DATE 2025**] SEGA-DCIM: Design Space Exploration-Guided Automatic Digital CIM Compiler with Multiple Precision Support.  
+  >*Haikang Diao, Haoyi Zhang, Jiahao Song, et al.* [[Paper]](https://doi.org/10.23919/DATE64628.2025.10993192)
+* [**TCAD 2025**] Exploiting the Memory-Compute-Coupling Feature for CIM Accelerator Design Optimization.  
+  >*Yongkun Wu, Xiaomeng Wang, Jia Chen, et al.* [[Paper]](https://doi.org/10.1109/TCAD.2025.3565487)
+* [**TCAS-I 2025**] A Design Framework of Heterogeneous Approximate DCIM-Based Accelerator for Energy-Efficient NN Processing.  
   >*Kyeongho Lee, Hyeyeong Lee, Jongsun Park.* [[Paper]](https://doi.org/10.1109/TCSI.2025.3530637)
 * [**DAC 2024**] EasyACIM: An End-to-End Automated Analog CIM with Synthesizable Architecture and Agile Design Space Exploration.
   >*Haoyi Zhang, Jiahao Song, Xiaohan Gao, et al.* [[Paper]](https://doi.org/10.1145/3649329.3656229)
